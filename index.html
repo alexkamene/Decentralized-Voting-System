@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decentralized Voting System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Decentralized Voting System</h1>
+    <div id="candidates-list">
+      <!-- Candidate information will be dynamically populated here -->
+    </div>
+    <form id="vote-form">
+      <label for="candidate-id">Enter Candidate ID to Vote:</label>
+      <input type="number" id="candidate-id" min="0" required>
+      <button type="submit">Vote</button>
+    </form>
+    <p id="message"></p> <!-- Message will be displayed here -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
