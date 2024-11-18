@@ -50,5 +50,10 @@ The main functionality includes:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/alexkamene/Decentralized-Voting-System.git
-  
+   
+
+### Screenshots
+
+![Decentralized Voting System Screenshot](image.png)
+
 
